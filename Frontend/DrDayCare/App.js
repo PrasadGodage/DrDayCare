@@ -12,6 +12,8 @@ import {
   Dashboard,
 } from './src/screens'
 
+const Stack = createStackNavigator()
+
 export default function App() {
   return (
     <Provider theme={theme}>
